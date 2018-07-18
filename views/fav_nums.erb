@@ -1,0 +1,19 @@
+<h2>Welcome <%=fname%> <%=lname%></h2>
+from <%=street%>, <%=city%>, <%=state%>, <%=zip%>!</h2>
+<h2>Please enter your 3 favorite numbers:</h2>
+<form method="post" action="fav_nums">
+<input type="hidden" name="fname" value="<%=fname%>">
+<input type="hidden" name="lname" value="<%=lname%>">
+<input type="hidden" name="street" value="<%=street%>">
+<input type="hidden" name="city" value="<%=city%>">
+<input type="hidden" name="state" value="<%=state%>">
+<input type="hidden" name="zip" value="<%=zip%>">
+<h2>Favorite number #1:</h2>
+<input type:="number" name="fav_num1" required autofocus>
+<h2>Favorite number #2:</h2>
+<input type:="number" name="fav_num2" required>
+<h2>Favorite number #3:</h2>
+<input type:="number" name="fav_num3" required>
+<br><br>
+<input type="submit" value="Submit" onclick>
+</form>
